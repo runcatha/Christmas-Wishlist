@@ -218,7 +218,7 @@ src
 
 ## Post-MVP
 
-- Set up a table to make friend and family groups
+- Set up a table to make friend and family group
 - Group Profile Component/Screen
 - Add Group Component/Screen
 
