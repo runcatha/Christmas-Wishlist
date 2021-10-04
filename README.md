@@ -10,7 +10,7 @@ All I Want for Christmas: Wouldn't it be nice if you could get your friends and 
 
 > The All I Want for Christmas MVP is to have an app that utilizes authentication to have a user create an account. The user is then able to go to their wishlist and utilize full CRUD to add, view, edit, and delete items. Users are also able to view other user's wishlists to see what friends and family want. Specifics include:
 > 
--a RESTful JSON API.
+- a RESTful JSON API.
 - Ruby on Rails server
 - database with 3 tables and 2 associations (1:1 and m:m)
 - uses Rails to define models to interact with the database
