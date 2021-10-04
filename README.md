@@ -86,35 +86,35 @@ All I Want for Christmas: Wouldn't it be nice if you could get your friends and 
 
 - My Wishlist
 
-![Dummy Link](url)
+![image](https://user-images.githubusercontent.com/87097080/135885219-b565d9bd-4023-4702-be4d-58f4e9cc7152.png)
 
 - Detail Page
 
-![Dummy Link](url)
+![image](https://user-images.githubusercontent.com/87097080/135885255-09ac27a7-d84b-4df4-9ed5-cbb3168336f5.png)
 
 - Add Item 
 
-![Dummy Link](url)
+![image](https://user-images.githubusercontent.com/87097080/135885302-97cd9296-d149-4c7a-96bc-38f5b5c28822.png)
 
 - Edit Item
 
-![Dummy Link](url)
+![image](https://user-images.githubusercontent.com/87097080/135885399-84bec70c-04d9-41e6-9774-ffd065ea17fb.png)
 
 - Group Profile (PMVP) or Member Borad (MVP)
 
-![Dummy Link](url)
+![image](https://user-images.githubusercontent.com/87097080/135885449-f8d3acf7-3b34-4fe4-80c6-ad78b4a6bdab.png)
 
 - Start a Group (PMVP)
 
-![Dummy Link](url)
+![image](https://user-images.githubusercontent.com/87097080/135885536-5217f8db-f2a9-461c-b94d-1b5e1113dec2.png)
 
 - User Wishlist Restricted View (MVP)
 
-![Dummy Link](url)
+![image](https://user-images.githubusercontent.com/87097080/135885592-7c49391b-2128-4420-9d29-dc6323b2d584.png)
 
 - Detail Page Restricted View (MVP)
 
-![Dummy Link](url)
+![image](https://user-images.githubusercontent.com/87097080/135885643-0283f2b6-fb6e-4ede-a7ed-114b5696fa9b.png)
 
 - Cart (PMVP)
 
@@ -126,21 +126,7 @@ All I Want for Christmas: Wouldn't it be nice if you could get your friends and 
 
 #### Component Architecture
 
-> Use this section to define your React components and the data architecture of your app. This should be a reflection of how you expect your directory/file tree to look like. 
-
-``` structure
-
-src
-|__ assets/
-      |__ fonts
-      |__ graphics
-      |__ images
-      |__ mockups
-|__ components/
-      |__ Header.jsx
-|__ services/
-
-```
+![image](https://user-images.githubusercontent.com/87097080/135886075-a7911295-3845-4f22-b7ab-a3297710d6dc.png)
 
 #### Time Estimates
 
