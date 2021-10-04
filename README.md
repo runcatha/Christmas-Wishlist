@@ -211,7 +211,7 @@ src
 
 #### ERD Model
 
-![image](https://user-images.githubusercontent.com/87097080/135895356-718aba06-a096-46ef-a07a-50cbae545412.png)
+[Imgur](https://i.imgur.com/36crbWi.png)
 <br>
 
 ---

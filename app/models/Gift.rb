@@ -1,3 +1,3 @@
 class Gift < ApplicationRecord
-  belongs_to :wishlists
+  has_and_belongs_to_many :wishlists
 end
