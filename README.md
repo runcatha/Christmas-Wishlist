@@ -9,31 +9,32 @@ All I Want for Christmas: Wouldn't it be nice if you could get your friends and 
 ## MVP
 
 > The All I Want for Christmas MVP is to have an app that utilizes authentication to have a user create an account. The user is then able to go to their wishlist and utilize full CRUD to add, view, edit, and delete items. Users are also able to view other user's wishlists to see what friends and family want. Specifics include:
--_a RESTful JSON API.
--_ Ruby on Rails server
--_ database with 3 tables and 2 associations (1:1 and m:m)
--_ uses Rails to define models to interact with the database
--_ Full CRUD (index, show, create, update, delete) between non-User tables
--_ working, interactive React app
--_ 9 separate, rendered components
--_ utilizes functional or class React components 
--_ utilizes state and props in components
--_ use only React for DOM Manipulation
--_ consume and render data from your Ruby on Rails API into components
--_ use React Router
--_ styled with CSS, Flexbox, and Grid to match wireframes
--_ front-end deployed via Netlify 
--_ back-end deployed via Heroku
+> 
+-a RESTful JSON API.
+- Ruby on Rails server
+- database with 3 tables and 2 associations (1:1 and m:m)
+- uses Rails to define models to interact with the database
+- Full CRUD (index, show, create, update, delete) between non-User tables
+- working, interactive React app
+- 9 separate, rendered components
+- utilizes functional or class React components 
+- utilizes state and props in components
+- use only React for DOM Manipulation
+- consume and render data from your Ruby on Rails API into components
+- use React Router
+- styled with CSS, Flexbox, and Grid to match wireframes
+- front-end deployed via Netlify 
+- back-end deployed via Heroku
 
 <br>
 
 ### Goals
 
-- _ Have the back-end set up by Oct 5th
-- _ Code 4 to 5 components and screens for the React app (break with CSS) by Oct 6th
-- _ Code remaining components and screens for the React app (break with CSS) by Oct 7th
-- _ Complete CSS on 4 to 5 screens by Oct 8th
-- _ Complete CSS on remaining screens by Oct 9th
+-  Have the back-end set up by Oct 5th
+-  Code 4 to 5 components and screens for the React app (break with CSS) by Oct 6th
+-  Code remaining components and screens for the React app (break with CSS) by Oct 7th
+-  Complete CSS on 4 to 5 screens by Oct 8th
+-  Complete CSS on remaining screens by Oct 9th
 
 <br>
 
@@ -213,9 +214,9 @@ src
 
 ## Post-MVP
 
--_ Set up a table to make friend and family groups
--_ Group Profile Component/Screen
--_ Add Group Component/Screen
+- Set up a table to make friend and family groups
+- Group Profile Component/Screen
+- Add Group Component/Screen
 
 
 ***
