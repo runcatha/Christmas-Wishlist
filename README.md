@@ -118,27 +118,87 @@ All I Want for Christmas: Wouldn't it be nice if you could get your friends and 
 
 - Cart (PMVP)
 
-#### Component Tree
-
-> Use this section to display the structure of how your React components are being rendered. This should show the parent to child relation between you components. In other words, show which components are rendering the other components. Include a link to your component tree
-
-[Component Tree Sample](https://gist.git.generalassemb.ly/davidtwhitlatch/414107e2560ae0bb65e233570f2fe056#file-component-tree-png)
-
-#### Component Architecture
+#### Component Hierarchy
 
 ![image](https://user-images.githubusercontent.com/87097080/135886075-a7911295-3845-4f22-b7ab-a3297710d6dc.png)
 
-#### Time Estimates
+#### Component Architecture
 
-> Use this section to estimate the time necessary to build out each of the components you've described above.
+``` structure
+
+src
+|__ components/
+      |__ Home.jsx
+      |__ LogIn.jsx
+      |__ SignUp.jsx
+      |__ AboutUs.jsx
+      |__ Profile.jsx
+      |__ MyWishlist.jsx
+      |__ Detail.jsx
+      |__ Edit.jsx
+      |__ AddGift.jsx
+      |__ GroupProfile.jsx
+      |__ StartGroup.jsx
+      |__ Nav.jsx
+      |__ Cart.jsx
+      |__ Footer.jsx
+|__ screens/
+      |__ Home.jsx
+      |__ LogIn.jsx
+      |__ SignUp.jsx
+      |__ AboutUs.jsx
+      |__ Profile.jsx
+      |__ MyWishlist.jsx
+      |__ Detail.jsx
+      |__ Edit.jsx
+      |__ AddGift.jsx
+      |__ GroupProfile.jsx
+      |__ StartGroup.jsx
+      |__ Nav.jsx
+      |__ Cart.jsx
+      |__ Footer.jsx
+|__ services/
+      |__ auth.js
+      |__ config.js
+      |__ wishlists.js
+      |__ items.js
+      |__ groups.js
+|__ App.css/
+|__ App.js/
+|__ index.css/
+|__ index.js/
+|__ utils/
+
+```
+
+#### Time Estimates
 
 | Task                | Priority | Estimated Time | Time Invested | Actual Time |
 | ------------------- | :------: | :------------: | :-----------: | :---------: |
-| Add Contact Form    |    L     |     3 hrs      |     2 hrs     |    3 hrs    |
-| Create CRUD Actions |    H     |     3 hrs      |     1 hrs     |     TBD     |
-| TOTAL               |          |     6 hrs      |     3 hrs     |     TBD     |
-
-> _Why is this necessary? Time frames are key to the development cycle. You have limited time to code your app, and your estimates can then be used to evaluate possibilities of your MVP and post-MVP based on time needed. It's best you assume an additional hour for each component, as well as a few hours added to the total time, to play it safe._
+| Wireframe   |    H     |     6 hrs      |     6 hrs     |    6 hrs    |
+| Component Hierarchy |    H     |     1 hrs      |     1 hrs     |     1 hrs     |
+| ReadMe    |    H     |     5 hrs      |     5 hrs     |    5 hrs    |
+| Create Ruby App |    H     |     1 hrs      |     TBD     |     TBD     |
+| Generate Models   |    H     |     1 hrs      |     TBD     |    TBD    |
+| Backend CRUD |    H     |     3 hrs      |     TBD     |     TBD     |
+| Deploy Heroku |    H     |     2 hrs      |     TBD     |     TBD     |
+| Authentication    |    H     |     2 hrs      |     TBD     |    TBD    |
+| Create React App |    H     |     1 hrs      |     TBD     |     TBD     |
+| App Component/Screen   |    H     |     3 hrs      |     TBD     |    TBD    |
+| Home Component/Screen |    H     |     3 hrs      |     TBD     |     TBD     |
+| LogIn Component/Screen    |    H     |     3 hrs      |     TBD     |    TBD   |
+| SignUp Component/Screen |    H     |     3 hrs      |     TBD     |     TBD     |
+| AboutUs Component/Screen   |    H     |     3 hrs      |     TBD     |    TBD    |
+| Profile Component/Screen |    H     |     3 hrs      |     TBD     |     TBD     |
+| MyWishlist Component/Screen    |    H     |     3 hrs      |     TBD     |    TBD    |
+| Detail Component/Screen |    H     |     3 hrs      |     TBD     |     TBD     |
+| Edit Component/Screen   |    H     |     3 hrs      |     TBD     |    TBD    |
+| AddGift Component/Screen |    H     |     3 hrs      |     TBD     |     TBD     |
+| GroupProfile Component/Screen    |    L     |     3 hrs      |     TBD     |    TBD    |
+| StartGroup Component/Screen    |    L     |     3 hrs      |     TBD    |    TBD    |
+| Deploy Netlify |    H     |     2 hrs      |     TBD     |     TBD     |
+| Post MVP |    L     |     TBD      |     TBD     |     TBD     |
+| TOTAL               |          |     6 hrs      |     12 hrs     |     TBD     |
 
 <br>
 
@@ -146,16 +206,17 @@ All I Want for Christmas: Wouldn't it be nice if you could get your friends and 
 
 #### ERD Model
 
-> Use this section to display an image of a computer generated ERD model. You can use draw.io, Lucidchart or another ERD tool.
-
-[ERD Sample](https://drive.google.com/file/d/1kLyQTZqfcA4jjKWQexfEkG2UspyclK8Q/view)
+![image](https://user-images.githubusercontent.com/87097080/135895356-718aba06-a096-46ef-a07a-50cbae545412.png)
 <br>
 
 ***
 
 ## Post-MVP
 
-> Use this section to document ideas you've had that would be fun (or necessary) for your Post-MVP. This will be helpful when you return to your project after graduation!
+-_ Set up a table to make friend and family groups
+-_ Group Profile Component/Screen
+-_ Add Group Component/Screen
+
 
 ***
 
