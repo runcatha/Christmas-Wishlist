@@ -2,14 +2,14 @@
 
 ## Overview
 
-All I Want for Christmas: Wouldn't it be nice if you could get your friends and family exactly what they want for Christmas? Also, isn't it the worst that throughout the year you think of things that would be nice to recieve as gifts, but when someone askes you what you want you draw a blank? Have no fear because All I Want for Christmas is here to solve these problems and more! Create a profile and add items that you want as they come to mind. When the holidays roll around go to your friends/families member's profiles to pick out exactly what they want. 
+All I Want for Christmas: Wouldn't it be nice if you could get your friends and family exactly what they want for Christmas? Also, isn't it the worst that throughout the year you think of things that would be nice to recieve as gifts, but when someone askes you what you want you draw a blank? Have no fear because All I Want for Christmas is here to solve these problems and more! Create a profile and add items that you want as they come to mind. When the holidays roll around go to your friends/families member's profiles to pick out exactly what they want.
 
 <br>
 
 ## MVP
 
 > The All I Want for Christmas MVP is to have an app that utilizes authentication to have a user create an account. The user is then able to go to their wishlist and utilize full CRUD to add, view, edit, and delete items. Users are also able to view other user's wishlists to see what friends and family want. Specifics include:
-> 
+
 - a RESTful JSON API.
 - Ruby on Rails server
 - database with 3 tables and 2 associations (1:1 and m:m)
@@ -17,45 +17,45 @@ All I Want for Christmas: Wouldn't it be nice if you could get your friends and 
 - Full CRUD (index, show, create, update, delete) between non-User tables
 - working, interactive React app
 - 9 separate, rendered components
-- utilizes functional or class React components 
+- utilizes functional or class React components
 - utilizes state and props in components
 - use only React for DOM Manipulation
 - consume and render data from your Ruby on Rails API into components
 - use React Router
 - styled with CSS, Flexbox, and Grid to match wireframes
-- front-end deployed via Netlify 
+- front-end deployed via Netlify
 - back-end deployed via Heroku
 
 <br>
 
 ### Goals
 
--  Have the back-end set up by Oct 5th
--  Code 4 to 5 components and screens for the React app (break with CSS) by Oct 6th
--  Code remaining components and screens for the React app (break with CSS) by Oct 7th
--  Complete CSS on 4 to 5 screens by Oct 8th
--  Complete CSS on remaining screens by Oct 9th
+- Have the back-end set up by Oct 5th
+- Code 4 to 5 components and screens for the React app (break with CSS) by Oct 6th
+- Code remaining components and screens for the React app (break with CSS) by Oct 7th
+- Complete CSS on 4 to 5 screens by Oct 8th
+- Complete CSS on remaining screens by Oct 9th
 
 <br>
 
 ### Libraries and Dependencies
 
-|     Library      | Description                                |
-| :--------------: | :----------------------------------------- |
-|      React       | _open-source JavaScript library utilized to build user interfaces_ |
-|   React Router   | _collection on navigation components that compose declaratively with the app_ |
-| React Router Dom | _enables dynamic routing in the app_ |
-|     Axios     | _a promise-based HTTP Client for node.js and the browser_ |
-|     Bcrypt      | _password-hashing function_ |
-|  Bootsnap  | _library that plugs into Ruby to optimize and cache expensive computations_ |
-|     Faker      | _library for genrating fake data_ |
-|  Jwt  | _ compact URL-safe means of representing claims to be transferred between two parties_ |
-| Pry-rails | _causes the rails console to open pry_ |
-|     Puma      | _without arguments, puma will look for a rackup (.ru) file in working directory called config.ru ._ |
-|  Rack-cors  | _handles Cross-Origin Resource Sharing (CORS), which makes cross-origin AJAX possible_ |
-| Rails | _server-side web application framework written in Ruby_ |
-|     Spring      | _a Rails application preloader that speeds up development by keeping  the app running in the background_ |
-|  Tzinfo-data  | _Time Zone database packaged as Ruby modules for use with TZInfo_ |
+|     Library      | Description                                                                                             |
+| :--------------: | :------------------------------------------------------------------------------------------------------ |
+|      React       | _open-source JavaScript library utilized to build user interfaces_                                      |
+|   React Router   | _collection on navigation components that compose declaratively with the app_                           |
+| React Router Dom | _enables dynamic routing in the app_                                                                    |
+|      Axios       | _a promise-based HTTP Client for node.js and the browser_                                               |
+|      Bcrypt      | _password-hashing function_                                                                             |
+|     Bootsnap     | _library that plugs into Ruby to optimize and cache expensive computations_                             |
+|      Faker       | _library for genrating fake data_                                                                       |
+|       Jwt        | _ compact URL-safe means of representing claims to be transferred between two parties_                  |
+|    Pry-rails     | _causes the rails console to open pry_                                                                  |
+|       Puma       | _without arguments, puma will look for a rackup (.ru) file in working directory called config.ru ._     |
+|    Rack-cors     | _handles Cross-Origin Resource Sharing (CORS), which makes cross-origin AJAX possible_                  |
+|      Rails       | _server-side web application framework written in Ruby_                                                 |
+|      Spring      | _a Rails application preloader that speeds up development by keeping the app running in the background_ |
+|   Tzinfo-data    | _Time Zone database packaged as Ruby modules for use with TZInfo_                                       |
 
 <br>
 
@@ -69,7 +69,7 @@ All I Want for Christmas: Wouldn't it be nice if you could get your friends and 
 
 ![image](https://user-images.githubusercontent.com/87097080/135884585-ba792e75-71cc-4d9c-8012-92d5fa105670.png)
 
-- Log In 
+- Log In
 
 ![image](https://user-images.githubusercontent.com/87097080/135884677-f7b10d11-aa14-4120-b958-e0ab5494ad93.png)
 
@@ -93,7 +93,7 @@ All I Want for Christmas: Wouldn't it be nice if you could get your friends and 
 
 ![image](https://user-images.githubusercontent.com/87097080/135885255-09ac27a7-d84b-4df4-9ed5-cbb3168336f5.png)
 
-- Add Item 
+- Add Item
 
 ![image](https://user-images.githubusercontent.com/87097080/135885302-97cd9296-d149-4c7a-96bc-38f5b5c28822.png)
 
@@ -119,13 +119,17 @@ All I Want for Christmas: Wouldn't it be nice if you could get your friends and 
 
 - Cart (PMVP)
 
+https://www.figma.com/file/LMaOHIZwx4D4KMH9BOEXRH/Untitled?node-id=0%3A1
+
 #### Component Hierarchy
 
 ![image](https://user-images.githubusercontent.com/87097080/135886075-a7911295-3845-4f22-b7ab-a3297710d6dc.png)
 
+https://whimsical.com/component-hierarchy-WoHfXnF3oMhGeEr3sp6SX4
+
 #### Component Architecture
 
-``` structure
+```structure
 
 src
 |__ components/
@@ -174,32 +178,32 @@ src
 
 #### Time Estimates
 
-| Task                | Priority | Estimated Time | Time Invested | Actual Time |
-| ------------------- | :------: | :------------: | :-----------: | :---------: |
-| Wireframe   |    H     |     6 hrs      |     6 hrs     |    6 hrs    |
-| Component Hierarchy |    H     |     1 hrs      |     1 hrs     |     1 hrs     |
-| ReadMe    |    H     |     5 hrs      |     5 hrs     |    5 hrs    |
-| Create Ruby App |    H     |     1 hrs      |     TBD     |     TBD     |
-| Generate Models   |    H     |     1 hrs      |     TBD     |    TBD    |
-| Backend CRUD |    H     |     3 hrs      |     TBD     |     TBD     |
-| Deploy Heroku |    H     |     2 hrs      |     TBD     |     TBD     |
-| Authentication    |    H     |     2 hrs      |     TBD     |    TBD    |
-| Create React App |    H     |     1 hrs      |     TBD     |     TBD     |
-| App Component/Screen   |    H     |     3 hrs      |     TBD     |    TBD    |
-| Home Component/Screen |    H     |     3 hrs      |     TBD     |     TBD     |
-| LogIn Component/Screen    |    H     |     3 hrs      |     TBD     |    TBD   |
-| SignUp Component/Screen |    H     |     3 hrs      |     TBD     |     TBD     |
-| AboutUs Component/Screen   |    H     |     3 hrs      |     TBD     |    TBD    |
-| Profile Component/Screen |    H     |     3 hrs      |     TBD     |     TBD     |
-| MyWishlist Component/Screen    |    H     |     3 hrs      |     TBD     |    TBD    |
-| Detail Component/Screen |    H     |     3 hrs      |     TBD     |     TBD     |
-| Edit Component/Screen   |    H     |     3 hrs      |     TBD     |    TBD    |
-| AddGift Component/Screen |    H     |     3 hrs      |     TBD     |     TBD     |
-| GroupProfile Component/Screen    |    L     |     3 hrs      |     TBD     |    TBD    |
-| StartGroup Component/Screen    |    L     |     3 hrs      |     TBD    |    TBD    |
-| Deploy Netlify |    H     |     2 hrs      |     TBD     |     TBD     |
-| Post MVP |    L     |     TBD      |     TBD     |     TBD     |
-| TOTAL               |          |     6 hrs      |     12 hrs     |     TBD     |
+| Task                          | Priority | Estimated Time | Time Invested | Actual Time |
+| ----------------------------- | :------: | :------------: | :-----------: | :---------: |
+| Wireframe                     |    H     |     6 hrs      |     6 hrs     |    6 hrs    |
+| Component Hierarchy           |    H     |     1 hrs      |     1 hrs     |    1 hrs    |
+| ReadMe                        |    H     |     5 hrs      |     5 hrs     |    5 hrs    |
+| Create Ruby App               |    H     |     1 hrs      |      TBD      |     TBD     |
+| Generate Models               |    H     |     1 hrs      |      TBD      |     TBD     |
+| Backend CRUD                  |    H     |     3 hrs      |      TBD      |     TBD     |
+| Deploy Heroku                 |    H     |     2 hrs      |      TBD      |     TBD     |
+| Authentication                |    H     |     2 hrs      |      TBD      |     TBD     |
+| Create React App              |    H     |     1 hrs      |      TBD      |     TBD     |
+| App Component/Screen          |    H     |     3 hrs      |      TBD      |     TBD     |
+| Home Component/Screen         |    H     |     3 hrs      |      TBD      |     TBD     |
+| LogIn Component/Screen        |    H     |     3 hrs      |      TBD      |     TBD     |
+| SignUp Component/Screen       |    H     |     3 hrs      |      TBD      |     TBD     |
+| AboutUs Component/Screen      |    H     |     3 hrs      |      TBD      |     TBD     |
+| Profile Component/Screen      |    H     |     3 hrs      |      TBD      |     TBD     |
+| MyWishlist Component/Screen   |    H     |     3 hrs      |      TBD      |     TBD     |
+| Detail Component/Screen       |    H     |     3 hrs      |      TBD      |     TBD     |
+| Edit Component/Screen         |    H     |     3 hrs      |      TBD      |     TBD     |
+| AddGift Component/Screen      |    H     |     3 hrs      |      TBD      |     TBD     |
+| GroupProfile Component/Screen |    L     |     3 hrs      |      TBD      |     TBD     |
+| StartGroup Component/Screen   |    L     |     3 hrs      |      TBD      |     TBD     |
+| Deploy Netlify                |    H     |     2 hrs      |      TBD      |     TBD     |
+| Post MVP                      |    L     |      TBD       |      TBD      |     TBD     |
+| TOTAL                         |          |     6 hrs      |    12 hrs     |     TBD     |
 
 <br>
 
@@ -210,7 +214,7 @@ src
 ![image](https://user-images.githubusercontent.com/87097080/135895356-718aba06-a096-46ef-a07a-50cbae545412.png)
 <br>
 
-***
+---
 
 ## Post-MVP
 
@@ -218,8 +222,7 @@ src
 - Group Profile Component/Screen
 - Add Group Component/Screen
 
-
-***
+---
 
 ## Code Showcase
 
