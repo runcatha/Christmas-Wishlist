@@ -66,23 +66,23 @@ All I Want for Christmas: Wouldn't it be nice if you could get your friends and 
 
 - Home
 
-![Dummy Link](url)
+![image](https://user-images.githubusercontent.com/87097080/135884585-ba792e75-71cc-4d9c-8012-92d5fa105670.png)
 
 - Log In 
 
-![Dummy Link](url)
+![image](https://user-images.githubusercontent.com/87097080/135884677-f7b10d11-aa14-4120-b958-e0ab5494ad93.png)
 
 - Sign Up
 
-![Dummy Link](url)
+![image](https://user-images.githubusercontent.com/87097080/135884783-a3b6f5d7-08b2-4503-89b3-203a91a6ac20.png)
 
 - About Us
 
-![Dummy Link](url)
+![image](https://user-images.githubusercontent.com/87097080/135884811-78ffa66d-9d16-452b-98d5-981fe6d210bb.png)
 
 - Profile (PMVP)
 
-![Dummy Link](url)
+![image](https://user-images.githubusercontent.com/87097080/135884866-e90276b7-02a8-4d1a-b12b-ea18e3f76797.png)
 
 - My Wishlist
 
